@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: demo
-          image: nginxdemos/hello:cows
+          image: nginxdemos/hello:latest
           ports:
             - containerPort: 80
